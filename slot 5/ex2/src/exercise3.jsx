@@ -1,3 +1,4 @@
+export function Exercise3(){
 const companies = [
     { name: "Company One", category: "Finance", start: 1981, end: 2003 },
     { name: "Company Two", category: "Retail", start: 1992, end: 2008 },
@@ -66,5 +67,5 @@ const result = ages.reduce(
 // 🖨️ In kết quả
 console.log(`Total: ${result.total}, Min: ${result.min}, Max: ${result.max}`);
 console.log("Buckets:", result.buckets);
-  
+}
   
